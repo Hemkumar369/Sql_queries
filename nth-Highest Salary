@@ -1,0 +1,7 @@
+### Find the nth-Highest Salary from the Employee Table
+### If there is no nth-Highest Salary 
+##$ the query should report null
+
+Select Distinct Salary as Nth_Highest_Salary from Employee
+Order by Salary DESC
+LIMIT 1 OFFSET n-1;
